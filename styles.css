@@ -1,0 +1,98 @@
+.img {
+    position: relative;
+    height: 100px;
+    width: 280px;
+    image-rendering:crisp-edges;
+}
+.searchfield {
+    margin: 10px;
+    line-height: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    height: 10px;
+    width: 600px;
+}
+
+.button {
+    user-select: none;
+    white-space: pre;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(black, rgb(110, 103, 103));
+    background-color: -internal-light-dark(rgb(65, 53, 53), rgb(59, 59, 59));
+    padding: 1px 6px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-weight: normal;
+    cursor: pointer;
+    background-color:rgb(133, 133, 133);
+    box-shadow:grey;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex-flow:column;
+    justify-content:stretch;
+}
+
+#navagation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#navagation > div {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(133, 133, 133);
+    font-style: normal;
+    border-radius: 5px;
+    box-shadow:grey;
+    border-radius: 5px;
+    cursor: pointer;                
+}
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:left;
+    align-items:flex-start;
+    flex-flow:column;
+}
+.button2 {
+    background: royalblue;
+    width: 220px;
+    height: 30px;
+    font-size: 18px;
+    padding: 3px;
+    color: white;
+    left: 600px;
+    }
+.luky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
